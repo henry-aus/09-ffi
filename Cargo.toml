@@ -1,5 +1,10 @@
 [workspace]
-members = ["algo", "node-binding", "python-binding"]
+members = [
+    "algo",
+    "node-binding",
+    "python-binding",
+    "roaring-bitmap-nj-binding",
+]
 resolver = "2"
 
 [workspace.dependencies]
